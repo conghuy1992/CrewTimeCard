@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\internal_impl-25.0.0_6e7d85ed833c9507f45f0d3c89b40e65ea8cc505.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\maidinh\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\library-1.0.19_07eec65cc7bc36c4026e81958ac6c67efb147668.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\org.altbeacon\android-beacon-library\2.8.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d635ba0566039772656378e67a302aa3448f5c29">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\org.altbeacon-android-beacon-library-2.8.1_d771b8041464f46ce133d0047ccf3eda644a2659.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-location-8.4.0_b99c2a4dc4121ddeee585e9c7af904e4d0a5dcd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\internal_impl-25.0.0_7b300b9810461e14c1dbfd7cbce78385839a0bd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-transition-25.0.0_f31fbd3dd6f19548802b95fe2ec634d7a2546858.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-25.0.0_3c60ecff5f0a621e7ce2a8e73f1fe301f63e8469.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\maidinh\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\gson-2.4_83a2a71008e13be4a81b6edf9e11246d4f3e5259.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.nononsenseapps\filepicker\2.4.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5d6e507c13c01bdea67918bf86561893d15bbac1">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.nononsenseapps-filepicker-2.4.2_443d466905fd25b5f8f1ade482885c7912840fb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\libs\universal-image-loader-1.9.4-with-sources.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="40595dbd3e3f1b87b27e914340d0e7dfd2d5b3d3">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\universal-image-loader-1.9.4-with-sources_6feab4ea0c6c06d52f98478da1cbc2b975950d7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-25.0.0_d15b2228d6f365a23684e92cc23f606b2107a6d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\libs\picasso-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\picasso-2.4.0_9a659f4baf6a9017d466f31402a1aa4fad8775b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-25.0.0_4250c8bb135add9b135a54f2df6d3b34c646c1ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\internal_impl-25.0.0_9128761a7d88208634a7b4307bbeabcc40bee99b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\libs\httpmime-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf8bacbf0d476c7f2221f861269365b66447f7ec">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\httpmime-4.3.6_40696c5eda4d085ff320cde60be73b811ec954e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-maps-8.4.0_141d4bf65af946c178db5ba70917640e3e36a740.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-25.0.0_3501bc9a0a76843a5c86bbeed3ba5c54833fb84e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-25.0.0_b6da85f21b527f666ee4c26172e44281975a33d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\internal_impl-25.0.0_2e533186983f6df54fc0d32824f4a6124e4b7aec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-25.0.0_c584b4ccf27a1b4d3c5e9f3e8980853be2db6788.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\libs\aniqroid-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ef7925e24443a60f103dc3137b40ecaecbbec470">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\aniqroid-2.1_4b2ebbf810f8b955ad807ea3e3bc44fa6d9c770a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\libs\httpcore-4.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\httpcore-4.4.1_3d197c6ecc5617815f85c089f2cc51a66a592a6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\internal_impl-25.0.0_fa5b51046933467b0b86cc0402a7b17d4b1fc024.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-25.0.0_528430a6aae8d90fa4c50ab964542f4894da217b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-25.0.0_9a097af4ae1d00e36a74f9d66822fb5d4addde38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-8.4.0_64179c966c0af47b43b1ebeb0dc86d2bb427cf6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-25.0.0_96fb9000c2cc25d46f674418604bd924ae95176e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\maidinh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\support-annotations-25.0.0_0ef261312f486001d2403d898ac05712d222a5c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-base-8.4.0_59870fd3a9c5e808e8a73887bf33a583cc500c0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\de.hdodenhof-circleimageview-2.1.0_ee86504f01c7d74962910623a4f77bb1138032c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-design-25.0.0_19a7ee8fe4be8521e6cd64a1bbc096e94009f2a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Projects\CrewTimeCard\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Projects\CrewTimeCard\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-25.0.0_fb28c6dc7db31913a655e7802aa36a6aced4596a.jar" />
+    </item>
+
+</items>

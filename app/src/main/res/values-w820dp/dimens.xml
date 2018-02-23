@@ -1,0 +1,12 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+
+    <dimen name="dimen_10_20">25dp</dimen>
+    <dimen name="dimen_80_160">200dp</dimen>
+    <dimen name="text_16_32">40sp</dimen>
+    <dimen name="text_18_36">45sp</dimen>
+
+    <!-- 05/11/2015 -->
+</resources>

@@ -1,0 +1,323 @@
+<resources>
+    <string name="set_permissions">Set Permissions</string>
+    <string name="permission_denied">Permission Denied</string>
+    <!--<string name="app_name">Phần mềm chấm công Dazone</string>-->
+    <!--text orginal-->
+    <string name="string_note">Ghi chú</string>
+    <string name="string_pc">PC</string>
+    <string name="time_list">Danh sách</string>
+    <string name="waiting_map_api">Vui lòng chờ để bản đồ xác định vị trí của bạn?</string>\
+
+    <string name="string_done">Hoàn Thành</string>
+    <string name="string_skip">Bỏ qua</string>
+
+    <string name="loading_title">Loading</string>
+    <string name="loading_content">Vui lòng đợi</string>
+    <string name="no_network_error">Không thể cập nhật vào máy chủ</string>
+    <!-- Login screen -->
+    <string name="string_server_site">ID Tổ chức(Công ty)</string>
+    <string name="login_username">ID cá nhân</string>
+    <string name="login_password">Mật khẩu</string>
+    <string name="login_login">Đăng nhập</string>
+
+    <string name="save">Lưu</string>
+    <string name="calendar">Lịch</string>
+    <string name="date_picker_title">Thời gian</string>
+    <string name="string_sign_up">Tạo tổ chức(công ty) mới</string>
+
+
+    <!--forgot password-->
+    <string name="forgot_pass_back_btn_text">Trở lại Đăng nhập</string>
+    <!--change password-->
+
+    <string name="login_empty_input"> Không để trống Server site, ID sử dụng và Mật khẩu</string>
+    <!--<string name="login_title">Chấm công</string>-->
+    <string name="copy_right_string">CopyRight © 2015 DaZone Tech., INC.</string>
+    <string name="time_card_nice_date">Have a nice day!</string>
+
+    <!--Side menu label-->
+    <string name="side_menu_time_card">Chấm công</string>
+    <string name="side_menu_my_list">Danh sách của tôi</string>
+    <string name="side_menu_all_employer">Danh sách nhân viên</string>
+    <string name="side_menu_current_status">Trạng thái của nhân viên</string>
+    <string name="side_menu_intro">Hướng dẫn</string>
+    <string name="side_menu_setting">Cài đặt</string>
+    <string name="side_menu_logout">Thoát</string>
+    <string name="title_activity_user_list">Hoạt động danh sách người dùng</string>
+    <string name="string_cancel">Huỷ</string>
+    <!--<string name="string_server_site">Server Site</string>-->
+
+    <!--checking text-->
+
+
+    <!--GPS string-->
+
+    <string name="location_disable">Chưa mở Location, đến nơi mở?</string>
+    <string name="gps_disable">Chưa mở GPS, đến nơi mở</string>
+    <string name="gps_mode">GPS chế độ chính xác cao chưa mở, đến nơi mở</string>
+    <string name="go_gps_enable">Đến nơi mở GPS</string>
+
+    <!--liked app-->
+
+    <string name="menu_action_time_card">TimeCard</string>
+
+    <!--28/7/2015-->
+    <string name="string_note_hint">Vui lòng nhập tin nhắn.</string>
+    <string name="string_settig_name">Tên</string>
+    <string name="string_settig_position">Vị trí</string>
+    <string name="string_settig_office">Vị trí Văn phòng</string>
+    <!--<string name="side_menu_produc">Go to Main Menu</string>-->
+
+    <!--29/7/2015-->
+
+    <string name="menu_action_name">Tên</string>
+    <string name="menu_action_all">Tất cả</string>
+    <string name="menu_action_working">Đang làm việc</string>
+    <string name="menu_action_not_working">Ra ngoài</string>
+    <string name="menu_action_absent">Vắng mặt</string>
+    <string name="title_activity_map">MapActivity</string>
+    <!--31/7/2015-->
+
+    <string name="menu_action_soonest">Sớm nhất</string>
+    <string name="menu_action_latest">Trễ nhất</string>
+    <string name="menu_action_workingtime">Giờ làm việc</string>
+
+    <!--01/08-->
+    <string name="string_status_no_result">Không có dữ liệu</string>
+    <string name="string_ok">Ok</string>
+
+    <!--intro page text-->
+
+    <string name="intro1_text1">Cảm ơn bạn đã cài đặt CrewChấmCông</string>
+    <string name="intro1_text2">CrewChấmCông là một ứng dụng quản lý chấm công của điện thoại thông minh</string>
+
+    <string name="intro2_text1">Giao diện thân thiện, dễ sử dụng</string>
+    <string name="intro3_text1">Tính năng cài đặt được nhiều vị trí làm việc</string>
+    <string name="intro4_text1">Tính năng xem lịch sử Chấm công của nhân viên theo ngày (Dành cho quản lý)</string>
+    <string name="intro5_text1">CrewChấmCông là một trong những phần mềm giải pháp thông mình cho doanh nghiệp của CrewCloud.</string>
+    <string name="intro5_text2">Theo đó cần có ID của tổ chức(công ty) và ID của nhân viên để cấu thành sơ đồ tổ chức(công ty). Nếu chưa có ID tổ chức(công ty) vui lòng click phía dưới để tạo.​</string>
+    <string name="intro5_text3">Tạo tổ chức(công ty) mới​</string>
+
+    <!--7/8/2015-->
+    <string name="all_employees_sort_type">Kiểu sắp xếp nhân viên</string>
+
+
+    <!--12/8/2015-->
+    <string name="no_connection_error">Không có kết nối internet</string>
+    <string name="no_wifi_error">Vui lòng mở wifi để tiếp tục</string>
+    <string name="turn_wifi_on">Mở wifi</string>
+
+    <string name="help_page">CrewTimeCard là phần mềm cho công ty, tập thể hoặc tổ chức dùng điện thoại thông minh
+ với chức năng thao tác các trạng thái Checkin, Checkuot,workuotside…. Và được lưu ở server,
+đương nhiên phần mềm còn hỗ trợ xem được lịch sử tình trạng làm việc đồng thời giúp bạn quản lý
+tình trạng làm việc hiện tại của nhân viên ở thời điểm hiện tại.\n
+
+Dữ liệu chấm công được lưu ở server trên điện thoại cá nhân
+ dĩ nhiên trên  www.crewcloud.net luôn luôn kiểm tra và xem được.\n
+
+Để sử dụng App này trước tiên người đứng đầu thuộc tổ chức của bạn(Người này gọi Admin site)
+ sẽ truy cập vào website CrewCloud (www.crewcloud.net) và thiết lập tổ chức( Công ty, nhóm) sau đó
+ trực tiếp đăng ký cho các thành viên của tổ chức mình hoặc gửi “ Mail đăng ký” cho thành viên để
+ các thành viên có thể tự đăng ký cho mình được.\n
+
+Trường hợp bạn ko phải là Admin site mà là thành viên bình thường thì bạn phải thông qua Admin site
+ để nhận “Mail đăng ký”, trường hợp không nhận được “ Mail đăng ký”  trực tiếp đăng ký ở site của
+ nhóm hoặc công ty của quý vị vui lòng liên hệ quản lý của bạn để nhận được ID và Pass để đăng nhập.
+
+DaZone Tech Inc.\n
+Http://www.dazone.co.kr  Email: help@crewcloud.net \n
+한국 본사 주소 :  (137-941) 275-6  Yangjae-dong, Seocho-gu, Seoul, Korea\n
+베트남 연구소: 주소 : Tầng 7, Central Park, 208 Nguyễn Trãi, Phường Phạm Ngũ Lão, Quận 1 , HCM
+    </string>
+    <string name="string_help">Trợ giúp</string>
+
+
+    <string name="employee_working_time">Giờ Làm việc</string>
+
+    <!--14/8/2015-->
+
+    <string name="app_name_icon">CrewChấmCông</string>
+    <string name="app_name">Crew\nChấmCông</string>
+    <string name="app_name_2">CrewChấmCông</string>
+
+    <string name="side_menu_produc">CrewCloud Main Menu</string>
+
+    <string name="string_min">MIN</string>
+    <string name="current_status_order">Sắp xếp tình trạng nhân viên</string>
+
+    <string name="string_no_office">Vị trí làm việc công ty quý vị chưa được cài đặt.\nĐể cài đặt vị trí làm việc cho công ty vui lòng Click OK dẫn tới menu cài đặt.
+        </string>
+
+
+    <!--25/8/2015-->
+
+    <string name="side_menu_product_info">Product Information</string>
+    <string name="product_applicaiton_version">Application version</string>
+    <string name="product_user_id">User ID</string>
+
+    <!--1/12/2015-->
+
+    //register 3/12/2015
+
+    //register 28/12/2015 update version
+    <string name="string_update">Update</string>
+    <string name="string_update_content">This Version is lower than current version, please update new version</string>
+
+
+    //31/12/2015
+
+    <string name="connection_falsed">Bạn không thể truy cập bằng địa chỉ này.</string>
+
+
+    <string name="menu_action_check_out">Check Out</string>
+
+
+    <string name="string_setting_check_time">Check In/Out time</string>
+    <string name="string_setting_api">Waiting API</string>
+    <string name="string_setting_time_space">~</string>
+
+    <string name="string_setting_lunch_time">Lunch Time</string>
+
+    <string name="string_setting_lunch_time_in_working">Add lunch time to the total working time</string>
+
+    <string name="string_settig_office_address">Office Address</string>
+    <string name="string_settig_office_longitude">Longitude</string>
+    <string name="string_settig_office_latitude">Latitude</string>
+    <string name="string_settig_office_check_range">Permissible Range</string>
+    <string name="string_settig_office_current_distance">Current Distance</string>
+    <string name="add_setting">Add</string>
+    <string name="zero_setting">Zero</string>
+    <string name="address_setting">Address: </string>
+    <string name="latitude_setting">Latitude: </string>
+    <string name="longitude_setting">Longitude: </string>
+    <string name="current_distance_setting">Current Error:</string>
+    <string name="set_zero_setting">Set Zero</string>
+    <string name="setting_permission_Range">Permissible Range:</string>
+    <string name="setting_workplace_name">WorkPlace Name</string>
+    <string name="setting_enter_workplace_name">Enter WorkPlace Name</string>
+    <string name="setting_workplace_address">WorkPlace Address</string>
+    <string name="setting_enter_workplace_address">Enter WorkPlace Address</string>
+    <string name="setting_enter_workplace_lat">Enter Latitude</string>
+    <string name="setting_enter_workplace_lng">Enter Longitude</string>
+
+    <string name="setting_workplace_permission_Range">Permissible Range (m)</string>
+
+    <string name="setting_enter_workplace_permission_Range">Enter Permissible Range (m)</string>
+    <string name="setting_zero_adjust">Zero Adjustment</string>
+    <string name="setting_new_workplace">New WorkPlace</string>
+    <string name="time_car_row_separate">-</string>
+    <string name="range_error">Permissible Range can not lower than 50m</string>
+
+    <string name="string_setting_server_site">Site</string>
+    <string name="txt_confirm_delete_office">Are you sure to delete this office?</string>
+
+    <string name="string_ok_office_location">Ok</string>
+    <string name="string_cancel_office_location">Cancel</string>
+    <string name="string_company_name_setting">Tên tổ chức(Công ty)</string>
+    <string name="comment_delete">Xóa</string>
+    <string name="quit_confirm">Nhấn thêm 1 lần để thoát.</string>
+
+    <string name="sign_up_suggest">Bạn chưa có ID tổ chức(công ty)?</string>
+    <string name="enter_your_email">Địa chỉ mail</string>
+    <string name="register">Gửi</string>
+    <string name="sign_up_note">Vui lòng nhập địa chỉ mail</string>
+    <string name="sign_up_note2">Chúng tôi sẽ gửi link để bạn có thể tạo cho mình một tổ chức(công ty) mới trên CrewCloud.</string>
+
+    <string name="title_sign_up_screen">Tạo tổ chức(công ty) mới</string>
+
+    <!-- PROFILE -->
+    <string name="profile_label_name">Name</string>
+    <string name="profile_label_sex">Sex</string>
+    <string name="profile_label_phone_number">Phone Number</string>
+    <string name="profile_label_company_number">Company Number</string>
+    <string name="profile_label_extension_number">Extension Number</string>
+    <string name="profile_label_entrance_date">Entrance Date</string>
+    <string name="profile_label_birthday">Birthday</string>
+    <string name="profile_label_belong">Belong To Department</string>
+    <string name="profile_label_password">Password</string>
+    <string name="profile_btn_change_password">Change</string>
+    <!-- Profile page -->
+    <string name="personal_id">PERSONAL ID</string>
+    <string name="email">EMAIL</string>
+    <string name="company_name">COMPANY NAME</string>
+
+    <!-- SETTING -->
+    <string name="setting_beacon_label">Beacon Point</string>
+
+    <!-- COMPANY INFO -->
+    <string name="company_info_title">Công ty</string>
+    <string name="company_info_row_name">Tên</string>
+    <string name="company_info_row_description">Description</string>
+    <string name="company_info_row_address">Vị trí</string>
+    <string name="company_info_row_permissible_range">Phạm vi áp dụng</string>
+    <string name="company_info_row_beacon">Beacon</string>
+    <string name="company_info_updating_beacon">Updating Beacon.</string>
+    <string name="company_info_add_beacon">Thêm mới</string>
+    <string name="company_info_change_beacon">Thay đổi</string>
+    <string name="company_info_delete_beacon">Xóa</string>
+    <string name="company_info_add_beacon_success">Add Beacon success.</string>
+    <string name="company_info_add_beacon_fail">Add Beacon fail.</string>
+    <string name="company_info_change_beacon_success">Change Beacon success.</string>
+    <string name="company_info_change_beacon_fail">Change Beacon fail.</string>
+    <string name="company_info_delete_beacon_success">Delete Beacon success.</string>
+    <string name="company_info_delete_beacon_fail">Delete Beacon fail.</string>
+    <string name="company_info_none_beacon">None</string>
+
+    <string name="company_info_dialog_delete_beacon_message">Bạn có muốn xóa Beacon đã chọn?</string>
+    <string name="company_info_dialog_add_beacon_message">Vui lòng chọn Beacon.</string>
+
+
+    <!-- SIMPLE PAGE -->
+    <string name="simple_beacon_found">Công ty</string>
+    <string name="simple_insert_time_card_success">Success.</string>
+    <string name="simple_insert_time_card_fail">Fail.</string>
+    <string name="simple_check_in_success">Check in success.</string>
+    <string name="simple_check_in_fail">Check in fail.</string>
+    <string name="simple_check_out_success">Check out success.</string>
+    <string name="simple_check_out_fail">Check out fail.</string>
+
+    <!-- LABEL ACTIVITY -->
+    <string name="label_activity_simple">Chấm công (Beacon)</string>
+    <string name="label_activity_time_card">Chấm công (Map)</string>
+    <string name="label_activity_map">Tìm kiếm vị trí</string>
+    <string name="label_activity_change_password">Change Password</string>
+
+    <!-- AUTO LOGIN -->
+    <string name="auto_login_button_yes">Đồng ý</string>
+    <string name="auto_login_button_no">Hủy</string>
+    <string name="auto_login_company_ID">ID Tổ chức :&#160;</string>
+    <string name="auto_login_user_ID">ID Cá nhân :&#160;</string>
+    <string name="auto_login_title">Tự động đăng nhập​</string>
+    <string name="auto_login_text">Hiện tại đang được đăng nhập trên server CrewCloud. Bạn có muốn đăng nhập bằng tài khoản trên?​</string>
+
+    <!-- COMMON -->
+    <string name="common_check_in">Vào ca</string>
+    <string name="common_check_out">Tan ca</string>
+    <string name="common_work_outside">Làm việc bên ngoài</string>
+    <string name="common_return">Trở lại</string>
+
+    <string name="action_search_beacon">Tìm kiếm Beacon</string>
+    <string name="profile">Thông tin của tôi</string>
+    <string name="are_you_sure_loguot">Bạn có muốn thoát khỏi phần mềm?</string>
+    <string name="not_permission">Tài khoản của bạn không thể thực hiện hiện chức năng này trên mobile. Vui lòng liên hệ quản trị viên của bạn</string>
+
+    <!-- CHANGE PASSWORD -->
+    <string name="change_password_hint_old_password">Old Password</string>
+    <string name="change_password_hint_new_password">New Password</string>
+    <string name="change_password_hint_confirm_password">Confirm Password</string>
+    <string name="change_password_button_change_password">Change Password</string>
+
+    <!-- DIALOG -->
+    <string name="dialog_list_choice_photo_camera">Camera</string>
+    <string name="dialog_list_choice_photo_attachment">Attachment</string>
+
+    <!-- BEACON -->
+    <string name="beacon_please_wait">Đang tìm beacon.\nVui lòng chờ.</string>
+    <string name="beacon_button_use_gps">GPS</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="side_menu_infor">About CrewTimeCard</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="timecard_version">CrewTimeCard Version</string>
+    <string name="user_version">Phiên bản người dùng</string>
+    <string name="please_change_your_mock">Vui lòng thay đổi ứng dụng vị trí mô phỏng của bạn để không được định cấu hình trong các tùy chọn nhà phát triển và thử lại</string>
+</resources>

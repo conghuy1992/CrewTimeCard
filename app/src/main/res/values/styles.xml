@@ -1,0 +1,240 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<color name="myColor_Primary">#10a7ff</color>-->
+    <!--<color name="myColor_PrimaryDark">#0085c5</color>-->
+
+    <color name="myColor_Primary">#52AFE7</color>
+    <color name="myColor_PrimaryDark">#4391bf</color>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/myColor_Primary</item>
+        <item name="colorPrimaryDark">@color/myColor_PrimaryDark</item>
+        <item name="colorAccent">@color/myColor_PrimaryDark</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+
+    <style name="Toolbar" parent="AppTheme">
+        <item name="popupTheme">@style/toolbar_popup_style</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorAccent">@color/app_base_color</item>
+    </style>
+
+    <style name="toolbar_popup_style" parent="Theme.AppCompat.Light">
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+        <item name="colorAccent">@color/app_base_color</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background" tools:ignore="NewApi">@android:color/white</item>
+        <item name="android:height">?actionBarSize</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ProgressCircleDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="btn_small_style_white" parent="btn_style_white">
+        <item name="android:layout_height">@dimen/button_height_small</item>
+        <item name="android:textSize">@dimen/button_text_size_small</item>
+    </style>
+
+    <style name="btn_style_white">
+        <item name="android:background">@drawable/gradient_btn_white</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textColor">@color/app_base_color</item>
+    </style>
+
+    <style name="btn">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="paddingStatusBar">
+        <item name="android:paddingTop">25dp</item>
+    </style>
+
+    <!--<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+    <!-- Login screen -->
+    <!--<style name="loginScreenEditTextStyle"  parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/editext_line_buttom_background</item>
+    </style>-->
+
+    <!-- COMMON -->
+    <style name="button">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="TvTitle">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="DialogButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:background">@drawable/btn_dialog_press_state</item>
+        <item name="android:textColor">@color/app_base_color</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <!-- Row Layout -->
+    <style name="profile_row_layout">
+        <item name="android:background">@drawable/bg_underline</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/padding_normal_2</item>
+        <item name="android:paddingLeft">@dimen/padding_normal</item>
+        <item name="android:paddingRight">@dimen/padding_normal</item>
+        <item name="android:paddingTop">@dimen/padding_normal_2</item>
+    </style>
+
+    <!-- Label -->
+    <style name="profile_label">
+        <item name="android:textSize">@dimen/profile_text_size_label</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/disable_text_color</item>
+    </style>
+
+    <!-- Content -->
+    <style name="profile_content">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+        <item name="android:textSize">@dimen/profile_text_size_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/profile_content</item>
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:background">@drawable/gradient_spinner</item>
+        <item name="android:popupBackground">@color/white</item>
+    </style>
+
+    <style name="btn_style">
+        <item name="android:background">@drawable/gradient_btn</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- DIALOG MONTH YEAR -->
+    <style name="dialog_month_year_layout_month">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/date_picker_month_year_month_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/bg_dialog_month_year_month</item>
+    </style>
+
+    <style name="dialog_month_year_tv_month_number">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/selector_tv_number_dialog_month_year</item>
+    </style>
+
+    <style name="dialog_month_year_tv_month_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/selector_tv_text_dialog_month_year</item>
+    </style>
+
+    <!-- COMPANY INFO -->
+    <style name="CompanyInfoRow">
+        <item name="android:padding">@dimen/padding_block</item>
+        <item name="android:paddingLeft">@dimen/padding_block</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?actionBarSize</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="CompanyInfoRowLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/disable_text_color</item>
+    </style>
+
+    <style name="CompanyInfoRowText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- PROFILE -->
+    <style name="ProfileLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_border_one_side_top</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/padding_normal_2</item>
+    </style>
+
+    <!-- CHANGE PASSWORD -->
+    <style name="ChangePasswordEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/margin_normal</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:background">@drawable/bg_border_one_side_bottom</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="FilePickerTheme" parent="NNF_BaseTheme">
+        <!-- Set these to match your theme -->
+        <item name="colorPrimary">@color/myColor_Primary</item>
+        <item name="colorPrimaryDark">@color/myColor_PrimaryDark</item>
+        <item name="colorAccent">@color/white</item>
+
+        <!-- Need to set this also to style create folder dialog -->
+        <item name="alertDialogTheme">@style/FilePickerAlertDialogTheme</item>
+
+        <!-- If you want to set a specific toolbar theme, do it here -->
+        <!-- <item name="nnf_toolbarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item> -->
+    </style>
+
+    <style name="FilePickerAlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorPrimary">@color/myColor_Primary</item>
+        <item name="colorPrimaryDark">@color/myColor_PrimaryDark</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <style name="tv_tree_user_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/tree_user_text_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="border">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_1_2</item>
+        <item name="android:background">@color/gray_light</item>
+    </style>
+</resources>

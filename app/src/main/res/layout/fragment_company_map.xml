@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/lnl_map"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/office_info"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/office_name"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#277bcd"
+            android:text="@string/add_setting"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:text="@string/address_setting"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/office_address"
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="@string/latitude_setting"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/office_latitude"
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="@string/longitude_setting"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/office_longitude"
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lnl_permissible_range"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:text="@string/setting_permission_Range"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/office_check_range"
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:text="@string/current_distance_setting"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/office_distance"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="34sp"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:text="@string/add_setting"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/set_zero_btn"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/gradient_gray"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="@string/set_zero_setting"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/setting_save_btn"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gradient_btn"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="@string/save"/>
+    </LinearLayout>
+
+</LinearLayout>

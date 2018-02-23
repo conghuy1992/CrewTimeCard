@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="dimen_10_20">20dp</dimen>
+    <dimen name="dimen_80_160">160dp</dimen>
+    <dimen name="text_16_32">32sp</dimen>
+    <dimen name="text_18_36">36sp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+
+    <!-- 05/11/2015 -->
+</resources>

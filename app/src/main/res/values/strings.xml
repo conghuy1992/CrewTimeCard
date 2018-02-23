@@ -1,0 +1,324 @@
+<resources>
+
+    <string name="set_permissions">Set Permissions</string>
+    <string name="permission_denied">Permission Denied</string>
+
+    <string name="string_note">Note</string>
+    <string name="string_done">Done</string>
+    <string name="string_pc">PC</string>
+    <string name="string_skip">Skip</string>
+    <string name="string_cancel">Cancel</string>
+
+    <string name="time_list">List</string>
+    <string name="waiting_map_api">Please wait map fragment obtain your location</string>
+
+    <string name="loading_title">Loading</string>
+    <string name="loading_content">Please wait.</string>
+    <string name="no_network_error">Can Not Connect To Server</string>
+
+    <!-- Login screen -->
+    <string name="string_server_site">Group(Company) ID</string>
+    <string name="login_username">Personal ID</string>
+    <string name="login_password">Password</string>
+    <string name="login_login">Log In</string>
+    <string name="string_sign_up">Create a new Group(Company)</string>
+
+    <string name="save">Save</string>
+    <string name="calendar">Calendar</string>
+    <string name="date_picker_title">Time</string>
+
+    <!--forgot password-->
+    <string name="forgot_pass_back_btn_text">Back to Login</string>
+
+    <!--change password-->
+    <string name="copy_right_string">CopyRight © 2015 DaZone Tech., INC.</string>
+    <string name="time_card_nice_date">Have a nice day!</string>
+
+    <string name="google_maps_key">AIzaSyBoY9cvSgpV6--hLxsmoLGAyhVciNt5D6k</string>
+
+    <!--Side menu label-->
+    <string name="side_menu_time_card">TimeCard</string>
+    <string name="side_menu_my_list">My List</string>
+    <string name="side_menu_intro">Intro</string>
+    <string name="side_menu_setting">Setting</string>
+    <string name="side_menu_logout">Logout</string>
+    <string name="title_activity_user_list">UserListActivity</string>
+
+    <!--checking text-->
+
+
+    <!--GPS string-->
+    <string name="location_disable">Location is disabled in your device. Would you like to enable it?</string>
+    <string name="gps_disable">GPS is disabled in your device. Would you like to enable it?</string>
+    <string name="gps_mode">GPS Mode is not high accuracy, Would you like to change it?</string>
+    <string name="go_gps_enable">Goto GPS settings</string>
+
+    <!--liked app-->
+    <string name="menu_action_time_card">TimeCard</string>
+
+    <!--28/7/2015-->
+    <string name="string_note_hint">Enter the message.</string>
+    <string name="string_settig_name">Name</string>
+    <string name="string_settig_position">Position</string>
+    <string name="string_settig_office">Office</string>
+
+    <!--29/7/2015-->
+    <string name="menu_action_name">Name</string>
+    <string name="menu_action_all">All</string>
+    <string name="menu_action_working">Working</string>
+    <string name="menu_action_not_working">Working Outside</string>
+    <string name="menu_action_absent">Absent</string>
+    <string name="title_activity_map">Location Map</string>
+
+    <!--31/7/2015-->
+    <string name="menu_action_soonest">Soonest</string>
+    <string name="menu_action_latest">Latest</string>
+    <string name="menu_action_workingtime">Working Time</string>
+
+    <!--01/08-->
+    <string name="string_status_no_result">No data</string>
+    <string name="string_ok">Ok</string>
+
+    <!--intro page text-->
+    <string name="intro1_text1">Thanks for installing the CrewTimeCard</string>
+    <string name="intro1_text2">The CrewTimeCard is an App that manage checking in and out your company</string>
+    <string name="intro2_text1">Intuitive interface, easy to use</string>
+    <string name="intro3_text1">The multiple workplaces can be set</string>
+    <string name="intro4_text1">All staffs’ working history and current status are provided</string>
+    <string name="intro5_text1">CrewTimeCard is a module of CrewCloud, which is a portal system for groups(companies).​</string>
+    <string name="intro5_text2">So groups(companies)\'s is needed to enter the system and a groups(companies)\'s organization is needed to be configured.​
+Click the below link to subscribe your group(company) if you have no id.​</string>
+    <string name="intro5_text3">Subscribe</string>
+
+
+    <!--7/8/2015-->
+    <string name="all_employees_sort_type">Staff’ List Order</string>
+
+    <!--12/8/2015-->
+    <string name="no_connection_error">No Internet Connection</string>
+    <string name="no_wifi_error">Please turn on wifi to continue </string>
+    <string name="turn_wifi_on">Turn wifi on</string>
+
+    <string name="help_page">The CrewTimeCard is a App which make the members post and save their working status
+with their current location into the server and thereafter provides the history of the individual working time and
+the all current members’ working status in a company or a team in real time as well.\n
+
+The working status data stored in the server can be searched and queried on your smartphone
+or the site, www.crewcloud.net anytime you want.\n
+
+In order to use this App, Someone(we call him ‘site manager’) of your company or team needs to connect
+the CrewCloud website, www.crewcloud.net , compose your organization(company or team) first
+and then register your members in advance or send your members  the ‘request mail for registration’
+so as that the members register by themselves.\n
+
+If you are a  just member not the site manager,
+the you can log in after registering your site directly by yourself through the ‘request mail for registration’
+sent from your site manager
+or after asking your site manager for the your id and password.\n
+
+DaZone Tech., Inc.\n
+Http://www.dazone.co.kr  Email: help@crewcloud.net \n
+Korea headquarter : 10th fl.,Samho bldg,Yangjae-dong, Seocho-gu, Seoul, KOREA 137-941\n
+Vietnamese R&amp;D center: 7th fl., Central Park bldg, 208 Nguyễn Trãi, Quận 1 , Hochiminh City, Vietnam
+    </string>
+    <string name="string_help">Help</string>
+
+    <!--13/8/2015-->
+
+    <!--14/8/2015-->
+    <string name="employee_working_time">Working Time</string>
+
+
+    <!--<string name="login_title">CrewTimeCard</string>-->
+    <string name="app_name_icon">CrewTimeCard</string>
+    <string name="app_name">Crew\nTimeCard</string>
+    <string name="app_name_2">CrewTimeCard</string>
+    <string name="side_menu_produc">CrewCloud Main Menu</string>
+    <string name="login_empty_input">cannot be empty</string>
+    <string name="side_menu_all_employer">Staffs’ List</string>
+    <string name="side_menu_current_status">Staffs’ Status</string>
+
+
+    <string name="current_status_order">Staffs’ Status List Order</string>
+
+
+    <string name="string_min">MIN</string>
+
+    <string name="string_no_office">The location of your workplace has not been defined yet.\nWe are moving to set the location now.
+    </string>
+    <!--25/8/2015-->
+
+
+    <string name="side_menu_product_info">Product Information</string>
+    <string name="product_applicaiton_version">Application version</string>
+    <string name="product_user_id">User ID</string>
+    <!--1/12/2015-->
+
+    //register 3/12/2015
+
+    //register 28/12/2015 update version
+    <string name="string_update">Update</string>
+    <string name="string_update_content">This Version is lower than current version, please update</string>
+
+
+    //31/12/2015
+
+    <string name="connection_falsed">Can not connect the above address </string>
+
+    <!--// string-->
+    <string name="menu_action_check_out">Check Out</string>
+
+
+    <string name="string_setting_check_time">Check In/Out time</string>
+    <string name="string_setting_api">Waiting API</string>
+    <string name="string_setting_time_space">~</string>
+
+    <string name="string_setting_lunch_time">Lunch Time</string>
+
+    <string name="string_setting_lunch_time_in_working">Add lunch time to the total working time</string>
+
+
+    <string name="string_settig_office_address">Office Address</string>
+    <string name="string_settig_office_longitude">Longitude</string>
+    <string name="string_settig_office_latitude">Latitude</string>
+    <string name="string_settig_office_check_range">Permissible Range</string>
+    <string name="string_settig_office_current_distance">Current Error</string>
+    <string name="add_setting">Add</string>
+    <string name="zero_setting">Zero</string>
+    <string name="address_setting">Address: </string>
+    <string name="latitude_setting">Latitude: </string>
+    <string name="longitude_setting">Longitude: </string>
+    <string name="current_distance_setting">Current Error:</string>
+    <string name="set_zero_setting">Set Zero</string>
+    <string name="setting_permission_Range">Permissible Range:</string>
+    <string name="setting_workplace_name">WorkPlace Name</string>
+    <string name="setting_enter_workplace_name">Enter WorkPlace Name</string>
+    <string name="setting_workplace_address">WorkPlace Address</string>
+    <string name="setting_enter_workplace_address">Enter WorkPlace Address(Optional)</string>
+    <string name="setting_enter_workplace_lat">Enter Latitude(Optional)</string>
+    <string name="setting_enter_workplace_lng">Enter Longitude(Optional)</string>
+
+    <string name="setting_workplace_permission_Range">Permissible Range (m)</string>
+
+    <string name="setting_enter_workplace_permission_Range">Enter Permissible Range(Optional)</string>
+    <string name="setting_zero_adjust">Zero Adjustment</string>
+    <string name="setting_new_workplace">New WorkPlace</string>
+    <string name="time_car_row_separate">-</string>
+    <string name="range_error">Permissible Range can not lower than 50m</string>
+
+    <string name="string_setting_server_site">Site</string>
+
+    <string name="txt_confirm_delete_office">Are you sure to delete this office?</string>
+
+    <string name="string_ok_office_location">OK</string>
+    <string name="string_cancel_office_location">Cancel</string>
+    <string name="string_company_name_setting">Group(Company) Name</string>
+    <string name="comment_delete">Delete</string>
+    <string name="quit_confirm">Press back again to quit.</string>
+
+    <!-- Sign Up screen -->
+    <string name="sign_up_suggest">Haven\'t you your Group(Company) ID yet?</string>
+    <string name="enter_your_email">Mail address</string>
+    <string name="register">Send</string>
+    <string name="sign_up_note">Enter your mail address.</string>
+    <string name="sign_up_note2">We will send a link to create a new group(company) on CrewCloud.</string>
+    <string name="title_sign_up_screen">Create a new Group(Company)</string>
+
+    <!-- PROFILE -->
+    <string name="profile_label_name">Name</string>
+    <string name="profile_label_sex">Sex</string>
+    <string name="profile_label_phone_number">Phone Number</string>
+    <string name="profile_label_company_number">Company Number</string>
+    <string name="profile_label_extension_number">Extension Number</string>
+    <string name="profile_label_entrance_date">Entrance Date</string>
+    <string name="profile_label_birthday">Birthday</string>
+    <string name="profile_label_belong">Belong To Department</string>
+    <string name="profile_label_password">Password</string>
+    <string name="profile_btn_change_password">Change</string>
+    <!-- Profile page -->
+    <string name="personal_id">PERSONAL ID</string>
+    <string name="email">EMAIL</string>
+    <string name="company_name">COMPANY NAME</string>
+
+    <!-- SETTING -->
+    <string name="setting_beacon_label">Beacon Point</string>
+
+    <!-- COMPANY INFO -->
+    <string name="company_info_title">Work Place</string>
+    <string name="company_info_row_name">Name</string>
+    <string name="company_info_row_description">Description</string>
+    <string name="company_info_row_address">Location</string>
+    <string name="company_info_row_permissible_range">Permissible Range</string>
+    <string name="company_info_row_beacon">Beacon</string>
+    <string name="company_info_updating_beacon">Updating Beacon.</string>
+    <string name="company_info_add_beacon">Add</string>
+    <string name="company_info_change_beacon">Change</string>
+    <string name="company_info_delete_beacon">Delete</string>
+    <string name="company_info_add_beacon_success">Add Beacon success.</string>
+    <string name="company_info_add_beacon_fail">Add Beacon fail.</string>
+    <string name="company_info_change_beacon_success">Change Beacon success.</string>
+    <string name="company_info_change_beacon_fail">Change Beacon fail.</string>
+    <string name="company_info_delete_beacon_success">Delete Beacon success.</string>
+    <string name="company_info_delete_beacon_fail">Delete Beacon fail.</string>
+    <string name="company_info_none_beacon">None</string>
+
+    <string name="company_info_dialog_delete_beacon_message">Are you sure to delete the selected beacon?</string>
+
+    <string name="company_info_dialog_add_beacon_message">Please select the beacon.</string>
+
+
+    <!-- SIMPLE PAGE -->
+    <string name="simple_beacon_found">WorkPlace</string>
+    <string name="simple_insert_time_card_success">Success.</string>
+    <string name="simple_insert_time_card_fail">Fail.</string>
+    <string name="simple_check_in_success">Check in success.</string>
+    <string name="simple_check_in_fail">Check in fail.</string>
+    <string name="simple_check_out_success">Check out success.</string>
+    <string name="simple_check_out_fail">Check out fail.</string>
+
+    <!-- LABEL ACTIVITY -->
+    <string name="label_activity_simple">TimeCard (Beacon)</string>
+    <string name="label_activity_time_card">TimeCard (Map)</string>
+    <string name="label_activity_map">Location</string>
+    <string name="label_activity_change_password">Change Password</string>
+
+    <!-- AUTO LOGIN -->
+    <string name="auto_login_button_yes">Yes</string>
+    <string name="auto_login_button_no">No</string>
+    <string name="auto_login_company_ID">Group ID&#160;&#160;&#160;&#160;&#160;&#160;:&#160;</string>
+    <string name="auto_login_user_ID">Personal ID&#160;:&#160;</string>
+    <string name="auto_login_title">Auto Login</string>
+    <string name="auto_login_text">You have already logged in to CrewCloud service.​ Would you log in as the above account?​</string>
+
+    <!-- COMMON -->
+    <string name="common_check_in">Check In</string>
+    <string name="common_check_out">Check Out</string>
+    <string name="common_work_outside">Work Outside</string>
+    <string name="common_return">Return</string>
+
+    <string name="action_search_beacon">Search Beacon</string>
+    <string name="profile">My Profile</string>
+    <string name="are_you_sure_loguot">Are you sure you want to logout?</string>
+    <string name="not_permission">Your Account cannot action  this function on mobile device. Please Contact to Administrator</string>
+
+    <!-- CHANGE PASSWORD -->
+    <string name="change_password_hint_old_password">Old Password</string>
+    <string name="change_password_hint_new_password">New Password</string>
+    <string name="change_password_hint_confirm_password">Confirm Password</string>
+    <string name="change_password_button_change_password">Change Password</string>
+
+    <!-- DIALOG -->
+    <string name="dialog_list_choice_photo_camera">Camera</string>
+    <string name="dialog_list_choice_photo_attachment">Attachment</string>
+
+    <!-- BEACON -->
+    <string name="beacon_please_wait">Looking for beacon.\nPlease wait.</string>
+    <string name="beacon_button_use_gps">GPS</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="side_menu_infor">About CrewTimeCard</string>
+    <string name="confirm">Confirm</string>
+    <string name="timecard_version">CrewTimeCard Version</string>
+    <string name="user_version">User Version</string>
+    <string name="please_change_your_mock">Please change your mock location app to unconfigured in developer options and try again</string>
+</resources>
+

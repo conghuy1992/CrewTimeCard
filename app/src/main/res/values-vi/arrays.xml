@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_home_status">
+        <item>@string/common_check_in</item>
+        <item>@string/common_work_outside</item>
+        <item>@string/common_return</item>
+        <item>@string/common_check_out</item>
+    </string-array>
+    <string-array name="list_staff_status">
+        <item>Tất cả</item>
+        <item>Làm việc</item>
+        <item>Ra ngoài</item>
+        <item>Vắng mặt</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="timecard.dazone.com.dazonetimecard.activities.UserListActivity">
+    <item
+        android:id="@+id/action_organization"
+        android:icon="@drawable/ic_organization"
+        android:title="@string/calendar"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_filter_list_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/menu_action_all"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:checked="true"
+                android:id="@+id/action_all"
+                android:checkable="true"
+                android:orderInCategory="100"
+                android:title="@string/menu_action_all" />
+            <item
+                android:id="@+id/action_working"
+                android:checkable="true"
+                android:orderInCategory="100"
+                android:title="@string/menu_action_working"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/action_not_working"
+                android:checkable="true"
+                android:orderInCategory="100"
+                android:title="@string/menu_action_not_working"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_absent"
+                android:checkable="true"
+                android:orderInCategory="100"
+                android:title="@string/menu_action_absent"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_check_out"
+                android:checkable="true"
+                android:orderInCategory="100"
+                android:title="@string/menu_action_check_out"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+</menu>

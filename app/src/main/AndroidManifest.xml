@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="timecard.dazone.com.dazonetimecard">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+
+
+
+    <permission
+        android:name="com.arshad.map.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.arshad.map.permission.MAPS_RECEIVE" />
+
+    <application
+        android:name=".utils.DaZoneApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/launcher_icon"
+        android:label="@string/app_name_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <provider
+            android:name=".database.AppContentProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false" />
+
+        <receiver android:name=".broadcast.NetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.nononsenseapps.filepicker.FilePickerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/FilePickerTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".filechooser.FileChooser"
+            android:label="@string/app_name"
+            android:theme="@style/FilePickerTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="adjustResize">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".activities.TimeCardActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/label_activity_time_card"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.ListEmployeesActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/side_menu_all_employer"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.MyListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/side_menu_my_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SimpleActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/label_activity_simple"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.StaffStatusActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/side_menu_current_status"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SettingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/side_menu_setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ImageViewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/side_menu_setting"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activities.UserListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_user_list"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.IntroActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <activity
+            android:name=".activities.ProductActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/side_menu_produc"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.MapActivity"
+            android:label="@string/title_activity_map" />
+
+        <activity
+            android:name=".activities.HelpActivity"
+            android:label="@string/string_help" />
+
+        <activity
+            android:name=".activities.ProductInfoActivity"
+            android:label="@string/side_menu_product_info" />
+
+        <activity
+            android:name=".activities.CompanyInfoActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.OfficeMapViewActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateHidden|stateVisible" />
+
+        <activity
+            android:name=".activities.ProfileUserActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activities.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+        <!--<receiver android:name=".broadcast.AccountReceiver">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.dazone.crewcloud.account.get" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+
+
+    </application>
+
+</manifest>

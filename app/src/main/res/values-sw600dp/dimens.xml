@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Commons -->
+    <dimen name="dimen_10_20">15dp</dimen>
+    <dimen name="dimen_80_160">120dp</dimen>
+    <dimen name="text_16_32">24sp</dimen>
+    <dimen name="text_18_36">27sp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+
+    <!-- 05/11/2015 -->
+</resources>

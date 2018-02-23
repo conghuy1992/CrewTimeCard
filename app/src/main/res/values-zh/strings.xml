@@ -1,0 +1,324 @@
+<resources>
+
+    <string name="set_permissions">Set Permissions</string>
+    <string name="permission_denied">Permission Denied</string>
+
+    <string name="string_note">笔记</string>
+    <string name="string_done">完成</string>
+    <string name="string_pc">PC</string>
+    <string name="string_skip">跳过</string>
+    <string name="string_cancel">取消</string>
+
+    <string name="time_list">目录</string>
+    <string name="waiting_map_api">调取现位置。请耐心等待</string>
+
+    <string name="loading_title">装载中</string>
+    <string name="loading_content">请耐心等待</string>
+    <string name="no_network_error">无法连接伺服</string>
+
+    <!-- Login screen -->
+    <string name="string_server_site">团体（公司）用户名</string>
+    <string name="login_username">个人用户名</string>
+    <string name="login_password">密码</string>
+    <string name="login_login">登入</string>
+    <string name="string_sign_up">生成新的 团体（公司）</string>
+
+    <string name="save">存储</string>
+    <string name="calendar">日历</string>
+    <string name="date_picker_title">时间</string>
+
+    <!--forgot password-->
+    <string name="forgot_pass_back_btn_text">后退</string>
+
+    <!--change password-->
+    <string name="copy_right_string">CopyRight © 2015 DaZone Tech., INC.</string>
+    <string name="time_card_nice_date">愉快的一天</string>
+
+    <string name="google_maps_key">AIzaSyBoY9cvSgpV6--hLxsmoLGAyhVciNt5D6k</string>
+
+    <!--Side menu label-->
+    <string name="side_menu_time_card">考勤表</string>
+    <string name="side_menu_my_list">我的考勤现况</string>
+    <string name="side_menu_intro">考勤表 介绍</string>
+    <string name="side_menu_setting">设定</string>
+    <string name="side_menu_logout">退出</string>
+    <string name="title_activity_user_list">使用目录活动</string>
+
+    <!--checking text-->
+
+
+    <!--GPS string-->
+    <string name="location_disable">Location is disabled in your device. Would you like to enable it?</string>
+    <string name="gps_disable">GPS is disabled in your device. Would you like to enable it?</string>
+    <string name="gps_mode">GPS Mode is not high accuracy, Would you like to change it?</string>
+    <string name="go_gps_enable">跳转设定位置</string>
+
+    <!--liked app-->
+    <string name="menu_action_time_card">考勤表</string>
+
+    <!--28/7/2015-->
+    <string name="string_note_hint">输入信息</string>
+    <string name="string_settig_name">姓名</string>
+    <string name="string_settig_position">职位</string>
+    <string name="string_settig_office">上班地</string>
+
+    <!--29/7/2015-->
+    <string name="menu_action_name">名字循序</string>
+    <string name="menu_action_all">全体</string>
+    <string name="menu_action_working">上班中</string>
+    <string name="menu_action_not_working">外出</string>
+    <string name="menu_action_absent">缺勤</string>
+    <string name="title_activity_map">存储位置</string>
+
+    <!--31/7/2015-->
+    <string name="menu_action_soonest">先来顺序</string>
+    <string name="menu_action_latest">后来顺序</string>
+    <string name="menu_action_workingtime">上班中</string>
+
+    <!--01/08-->
+    <string name="string_status_no_result">不存在的数据</string>
+    <string name="string_ok">确认</string>
+
+    <!--intro page text-->
+    <string name="intro1_text1">感谢设定CREW出勤表</string>
+    <string name="intro1_text2">CREW出勤表是 使用智能手机 管理的</string>
+    <string name="intro2_text1">直观且已管理</string>
+    <string name="intro3_text1">可以设定复数的作业场位置</string>
+    <string name="intro4_text1">可查询全职员的 出勤及上班现况</string>
+    <string name="intro5_text1">CREW出勤表是 团体（公司）用系统的 CREW部分功能模块</string>
+    <string name="intro5_text2">So groups(companies)\'s is needed to enter the system and a groups(companies)\'s organization is needed to be configured.​
+Click the below link to subscribe your group(company) if you have no id.​</string>
+    <string name="intro5_text3">加入</string>
+
+
+    <!--7/8/2015-->
+    <string name="all_employees_sort_type">全社员 出勤目录 类型</string>
+
+    <!--12/8/2015-->
+    <string name="no_connection_error">无法连接网络</string>
+    <string name="no_wifi_error">请连接 WIFI 或 3G/4G</string>
+    <string name="turn_wifi_on">请连接 WIFI </string>
+
+    <string name="help_page">The CrewTimeCard is a App which make the members post and save their working status
+with their current location into the server and thereafter provides the history of the individual working time and
+the all current members’ working status in a company or a team in real time as well.\n
+
+The working status data stored in the server can be searched and queried on your smartphone
+or the site, www.crewcloud.net anytime you want.\n
+
+In order to use this App, Someone(we call him ‘site manager’) of your company or team needs to connect
+the CrewCloud website, www.crewcloud.net , compose your organization(company or team) first
+and then register your members in advance or send your members  the ‘request mail for registration’
+so as that the members register by themselves.\n
+
+If you are a  just member not the site manager,
+the you can log in after registering your site directly by yourself through the ‘request mail for registration’
+sent from your site manager
+or after asking your site manager for the your id and password.\n
+
+DaZone Tech., Inc.\n
+Http://www.dazone.co.kr  Email: help@crewcloud.net \n
+Korea headquarter : 10th fl.,Samho bldg,Yangjae-dong, Seocho-gu, Seoul, KOREA 137-941\n
+Vietnamese R&amp;D center: 7th fl., Central Park bldg, 208 Nguyễn Trãi, Quận 1 , Hochiminh City, Vietnam
+    </string>
+    <string name="string_help">帮助</string>
+
+    <!--13/8/2015-->
+
+    <!--14/8/2015-->
+    <string name="employee_working_time">上班时间</string>
+
+
+    <!--<string name="login_title">CrewTimeCard</string>-->
+    <string name="app_name_icon">CREW出勤表</string>
+    <string name="app_name">CREW出勤表</string>
+    <string name="app_name_2">CREW出勤表</string>
+    <string name="side_menu_produc">CREW 主菜单</string>
+    <string name="login_empty_input">输入</string>
+    <string name="side_menu_all_employer">全社员考勤目录</string>
+    <string name="side_menu_current_status">全社员上班现况</string>
+
+
+    <string name="current_status_order">全社员 出勤现况 排列类型</string>
+
+
+    <string name="string_min">分钟</string>
+
+    <string name="string_no_office">为登入 上班位置 。\n现在移动到上班位置设定菜单
+    </string>
+    <!--25/8/2015-->
+
+
+    <string name="side_menu_product_info">产品情报</string>
+    <string name="product_applicaiton_version">版本情报</string>
+    <string name="product_user_id">使用用户名</string>
+    <!--1/12/2015-->
+
+    //register 3/12/2015
+
+    //register 28/12/2015 update version
+    <string name="string_update">更新</string>
+    <string name="string_update_content">发现最新版本 请更新</string>
+
+
+    //31/12/2015
+
+    <string name="connection_falsed">无法登入到此位置</string>
+
+    <!--// string-->
+    <string name="menu_action_check_out">下班</string>
+
+
+    <string name="string_setting_check_time">上班/下班</string>
+    <string name="string_setting_api">API 等待</string>
+    <string name="string_setting_time_space">~</string>
+
+    <string name="string_setting_lunch_time">中午</string>
+
+    <string name="string_setting_lunch_time_in_working">上班时间包含 中午时间</string>
+
+
+    <string name="string_settig_office_address">上班场所 地址</string>
+    <string name="string_settig_office_longitude">经度</string>
+    <string name="string_settig_office_latitude">纬度</string>
+    <string name="string_settig_office_check_range">误差范围</string>
+    <string name="string_settig_office_current_distance">现位置</string>
+    <string name="add_setting">追加</string>
+    <string name="zero_setting">零点调整</string>
+    <string name="address_setting">上班场所 地址:</string>
+    <string name="latitude_setting">经度:</string>
+    <string name="longitude_setting">纬度:</string>
+    <string name="current_distance_setting">现在误差:</string>
+    <string name="set_zero_setting">Set Zero</string>
+    <string name="setting_permission_Range">允许范围:</string>
+    <string name="setting_workplace_name">工作地点</string>
+    <string name="setting_enter_workplace_name">请输入工作地点</string>
+    <string name="setting_workplace_address">工作地址</string>
+    <string name="setting_enter_workplace_address">请输入工作地址（可选输入）</string>
+    <string name="setting_enter_workplace_lat">请输入维度（可选输入）</string>
+    <string name="setting_enter_workplace_lng">请输入经度（可选输入）</string>
+
+    <string name="setting_workplace_permission_Range">允许范围（m)</string>
+
+    <string name="setting_enter_workplace_permission_Range">请输入允许范围（可选输入）</string>
+    <string name="setting_zero_adjust">零点调整</string>
+    <string name="setting_new_workplace">新工作地</string>
+    <string name="time_car_row_separate">-</string>
+    <string name="range_error">允许范围需最小50m</string>
+
+    <string name="string_setting_server_site">网站</string>
+
+    <string name="txt_confirm_delete_office">确认要删除公司工作地？</string>
+
+    <string name="string_ok_office_location">确认</string>
+    <string name="string_cancel_office_location">取消</string>
+    <string name="string_company_name_setting">团体（公司）名字</string>
+    <string name="comment_delete">删除</string>
+    <string name="quit_confirm">按下‘下一步’结束操作</string>
+
+    <!-- Sign Up screen -->
+    <string name="sign_up_suggest">团体（公司）ID还没有吗？</string>
+    <string name="enter_your_email">邮箱地址</string>
+    <string name="register">发送</string>
+    <string name="sign_up_note">请输入邮箱地址</string>
+    <string name="sign_up_note2">将把您输入的邮件地址在云端生成团体（公司）的链接</string>
+    <string name="title_sign_up_screen">生成团体（公司）</string>
+
+    <!-- PROFILE -->
+    <string name="profile_label_name">Name</string>
+    <string name="profile_label_sex">Sex</string>
+    <string name="profile_label_phone_number">Phone Number</string>
+    <string name="profile_label_company_number">Company Number</string>
+    <string name="profile_label_extension_number">Extension Number</string>
+    <string name="profile_label_entrance_date">Entrance Date</string>
+    <string name="profile_label_birthday">Birthday</string>
+    <string name="profile_label_belong">Belong To Department</string>
+    <string name="profile_label_password">Password</string>
+    <string name="profile_btn_change_password">Change</string>
+    <!-- Profile page -->
+    <string name="personal_id">PERSONAL ID</string>
+    <string name="email">EMAIL</string>
+    <string name="company_name">COMPANY NAME</string>
+
+    <!-- SETTING -->
+    <string name="setting_beacon_label">Beacon Point</string>
+
+    <!-- COMPANY INFO -->
+    <string name="company_info_title">工作地</string>
+    <string name="company_info_row_name">名字</string>
+    <string name="company_info_row_description">Description</string>
+    <string name="company_info_row_address">位置</string>
+    <string name="company_info_row_permissible_range">允许范围</string>
+    <string name="company_info_row_beacon">信标</string>
+    <string name="company_info_updating_beacon">Updating Beacon.</string>
+    <string name="company_info_add_beacon">增加</string>
+    <string name="company_info_change_beacon">变更</string>
+    <string name="company_info_delete_beacon">删除</string>
+    <string name="company_info_add_beacon_success">Add Beacon success.</string>
+    <string name="company_info_add_beacon_fail">Add Beacon fail.</string>
+    <string name="company_info_change_beacon_success">Change Beacon success.</string>
+    <string name="company_info_change_beacon_fail">Change Beacon fail.</string>
+    <string name="company_info_delete_beacon_success">Delete Beacon success.</string>
+    <string name="company_info_delete_beacon_fail">Delete Beacon fail.</string>
+    <string name="company_info_none_beacon">None</string>
+
+    <string name="company_info_dialog_delete_beacon_message">确认要删除所选的信标？</string>
+
+    <string name="company_info_dialog_add_beacon_message">请选择信标</string>
+
+
+    <!-- SIMPLE PAGE -->
+    <string name="simple_beacon_found">工作地</string>
+    <string name="simple_insert_time_card_success">Success.</string>
+    <string name="simple_insert_time_card_fail">Fail.</string>
+    <string name="simple_check_in_success">Check in success.</string>
+    <string name="simple_check_in_fail">Check in fail.</string>
+    <string name="simple_check_out_success">Check out success.</string>
+    <string name="simple_check_out_fail">Check out fail.</string>
+
+    <!-- LABEL ACTIVITY -->
+    <string name="label_activity_simple">考勤簿（信标）</string>
+    <string name="label_activity_time_card">考勤簿（地图）</string>
+    <string name="label_activity_map">位置确认</string>
+    <string name="label_activity_change_password">更改密码</string>
+
+    <!-- AUTO LOGIN -->
+    <string name="auto_login_button_yes">例</string>
+    <string name="auto_login_button_no">不是</string>
+    <string name="auto_login_company_ID">团体ID:</string>
+    <string name="auto_login_user_ID">个人ID:</string>
+    <string name="auto_login_title">自动登录:</string>
+    <string name="auto_login_text">已经在云端登录中，仍要用以上ID登录吗？</string>
+
+    <!-- COMMON -->
+    <string name="common_check_in">出勤</string>
+    <string name="common_check_out">下班</string>
+    <string name="common_work_outside">外勤</string>
+    <string name="common_return">返回</string>
+
+    <string name="action_search_beacon">信标搜索</string>
+    <string name="profile">个人信息</string>
+    <string name="are_you_sure_loguot">确认要退出登录吗</string>
+    <string name="not_permission">登录的使用人ID没有手机上下班打卡权限，\n请咨询管理员</string>
+
+    <!-- CHANGE PASSWORD -->
+    <string name="change_password_hint_old_password">现使用密码</string>
+    <string name="change_password_hint_new_password">新密码</string>
+    <string name="change_password_hint_confirm_password">密码确认</string>
+    <string name="change_password_button_change_password">密码变更</string>
+
+    <!-- DIALOG -->
+    <string name="dialog_list_choice_photo_camera">Camera</string>
+    <string name="dialog_list_choice_photo_attachment">Attachment</string>
+
+    <!-- BEACON -->
+    <string name="beacon_please_wait">信息搜索中，\n请稍等</string>
+    <string name="beacon_button_use_gps">位置确认</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="side_menu_infor">考勤簿信息</string>
+    <string name="confirm">确认</string>
+    <string name="timecard_version">考勤簿版本</string>
+    <string name="user_version">使用者版本</string>
+    <string name="please_change_your_mock">Please change your mock location app to unconfigured in developer options and try again</string>
+</resources>
+

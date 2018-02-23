@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        <color name="app_base_color">#4391dd</color>
+    -->
+    <color name="app_base_color">#52AFE7</color>
+
+    <color name="drawer_devide_color">#909796</color>
+    <color name="secondary_text_color">#76000000</color>
+    <color name="disable_text_color">#878787</color>
+    <color name="signature_background">#B7B7B7</color>
+    <color name="orange">#ff9c00</color>
+    <color name="button_disable">#bbbbbb</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="setting_second_text_color">#878787</color>
+    <color name="divider_color">#b0b0b0</color>
+
+    <color name="working_color">#277bcd</color>
+    <color name="work_outside_color">#ff6c00</color>
+    <color name="absent_color">#ff0000</color>
+    <color name="button_login">#3f95e9</color>
+
+    <color name="dialog_set_office_title">#575757</color>
+    <color name="drawer_devide_color_anphal">#66909796</color>
+
+    <color name="profile_content">#000000</color>
+    <color name="divide_color">#b6b6b6</color>
+    <color name="tree_user_position_color">#777777</color>
+    <color name="gray_light">#DFDFDF</color>
+
+</resources>

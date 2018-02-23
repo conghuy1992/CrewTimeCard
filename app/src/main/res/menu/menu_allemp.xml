@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="timecard.dazone.com.dazonetimecard.activities.IntroActivity">
+    <item
+        android:id="@+id/action_organization"
+        android:icon="@drawable/ic_organization"
+        android:title="@string/calendar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_calendar"
+        android:icon="@drawable/ic_date_range_white_24dp"
+        android:title="@string/calendar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:icon="@drawable/ic_filter_list_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/menu_action_all"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/action_name"
+                android:checkable="true"
+                android:orderInCategory="100"
+                android:title="@string/menu_action_name" />
+
+            <item
+                android:id="@+id/action_soonest"
+                android:checkable="true"
+                android:orderInCategory="100"
+                android:title="@string/menu_action_soonest"
+                app:showAsAction="collapseActionView" />
+
+            <item
+                android:id="@+id/action_latest"
+                android:checkable="true"
+                android:orderInCategory="100"
+                android:title="@string/menu_action_latest"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_working_time"
+                android:checkable="true"
+                android:orderInCategory="100"
+                android:title="@string/menu_action_workingtime"
+                app:showAsAction="never" />
+
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,19 @@
+<resources>
+    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/myColor_Primary</item>
+        <item name="colorPrimaryDark">@color/myColor_PrimaryDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="paddingStatusBar">
+        <item name="android:paddingTop">0dp</item>
+    </style>
+
+    <!-- COMMON -->
+    <style name="button">
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+</resources>

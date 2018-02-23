@@ -1,0 +1,15 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="@dimen/activity_grid_margin"
+    android:paddingLeft="@dimen/activity_grid_margin"
+    android:paddingTop="@dimen/edittext_height"
+    android:id="@+id/product_grid"
+    android:numColumns="4"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:gravity="center"
+    android:background="@drawable/crew_store_background"
+    tools:context="timecard.dazone.com.dazonetimecard.activities.ProductActivity">
+
+</GridView>

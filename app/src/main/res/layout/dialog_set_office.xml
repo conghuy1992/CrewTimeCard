@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="@string/setting_workplace_name"
+            android:textColor="@color/dialog_set_office_title"
+            android:textSize="16sp" />
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/edt_workplace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_enter_workplace_name"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/signature_background"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="@string/setting_workplace_address"
+            android:textColor="@color/dialog_set_office_title"
+            android:textSize="16sp" />
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/edt_workplace_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_enter_workplace_address"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/signature_background"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="@string/latitude_setting"
+            android:textColor="@color/dialog_set_office_title"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_workplace_lat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_enter_workplace_lat"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/signature_background"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="@string/longitude_setting"
+            android:textColor="@color/dialog_set_office_title"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_workplace_lng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_enter_workplace_lng"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/signature_background"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="@string/setting_workplace_permission_Range"
+            android:textColor="@color/dialog_set_office_title"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_workplace_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_enter_workplace_permission_Range"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/signature_background"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/add_btn_cancel"
+                style="@style/DialogButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/string_cancel_office_location" />
+
+            <Button
+                android:id="@+id/add_btn_log_time"
+                style="@style/DialogButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/string_ok_office_location" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
